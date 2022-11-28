@@ -453,6 +453,145 @@ span{
     cursor: pointer;
     
 }
+.btnOpenModal2{
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+}
+hr{
+    border: 0px;
+    border-top: 1px solid lightgray;
+
+}
+.modal-container2{
+    width: 100vw;
+    position: fixed;
+    top: 10px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+.modal2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 50%;
+    height: 60vh;
+}
+.active{
+    display: flex;
+}
+.active .modal2{
+    animation: modal .4s;
+}
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+span{
+    margin: 10px auto;
+}
+.btns2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btns2 button{
+    position: fixed;
+    top: -310px;
+    left: 550px;
+    
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.btnOpenModal3{
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+}
+hr{
+    border: 0px;
+    border-top: 1px solid lightgray;
+
+}
+.modal-container3{
+    width: 100vw;
+    position: fixed;
+    top: 10px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+.modal3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 50%;
+    height: 60vh;
+}
+.active{
+    display: flex;
+}
+.active .modal3{
+    animation: modal .4s;
+}
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+span{
+    margin: 10px auto;
+}
+.btns3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btns3 button{
+    position: fixed;
+    top: -310px;
+    left: 550px;
+    
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
 /*.btnOk{
     background-color: blue;
 }

@@ -92,7 +92,25 @@
                     <img src="img/tarefas-sem-fundo.png" alt="">
                     <h1>App barbearia</h1>
                     <p>Projeto acadêmico criado na linguagem Java, é uma aplicação destinada há um barbeiro para marcação de serviços, a interface foi criada com a netbeans.</p>
-                    <button>Hire me</button>
+                    <button class="btnOpenModal2" onclick="openModal2()">Tecnologias</button>
+                       <div class="modal-container2">
+                          <div class="modal2">
+                             <h2>INFORMAÇÕES TECNOLOGIAS APLICADAS</h2>
+                             <hr>
+                             <span>
+                                <h3>JAVA</h3>
+                                <span>Java é uma linguagem de programação e um ambiente computacional criado pela Sun Microsystems na década de 90, sendo posteriormente adquirido pela Oracle.
+                                    Devido a possibilidade de escrever o código apenas uma vez e rodá-lo em diferentes dispositivos, a tecnologia logo se tornou popular, passando a ser implementada em praticamente qualquer lugar, desde sites e computadores até datacenters, celulares, calculadoras, videogames, etc.</span>
+                                 <span>Obs: A interface do projeto foi desenvolvolvida diretamente na IDE Netbeans</span>
+                                 
+                              <hr>
+                              <hr>
+                               <div class="btns2">
+                                <!--<button class="btnOk" onclick="closeModal()">ok</button>-->
+                                <button class="btnClose2" onclick="closeModal2()">Fechar</button>
+                               </div>
+                          </div>
+                       </div>
                     <a target="_blank" href="https://github.com/dreds1522/projeto_barbearia2">App barbearia</a>
                 </label>
                 <label class="card" for="item-2" id="song-2">
@@ -102,15 +120,18 @@
                     <button class="btnOpenModal" onclick="openModal()">Tecnologias</button>
                        <div class="modal-container">
                           <div class="modal">
-                             <h2>Informações</h2>
+                             <h2>INFORMAÇÕES TECNOLOGIAS APLICADAS</h2>
                              <hr>
-                              <span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut assumenda perferendis a quod expedita! Assumenda ad similique expedita totam.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut assumenda perferendis a quod expedita! Assumenda ad similique expedita totam.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut assumenda perferendis a quod expedita! Assumenda ad similique expedita totam.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut assumenda perferendis a quod expedita! Assumenda ad similique expedita totam.
-                                
-                              </span>
+                             <span>
+                                <h3>CSS</h3>
+                                <span>CSS, Trata-se de uma linguagem de marcação, amplamente utilizada com HTML ou XHTML, e representa diversas possibilidades para a formatação. O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.</span>
+                               
+                                 <h3>HTML</h3>
+                                 <span>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</span>
+                                 
+                                 <h3>BOOTSTRAP</h3>
+                                 <span> Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.</span>
+                              <hr>
                               <hr>
                                <div class="btns">
                                 <!--<button class="btnOk" onclick="closeModal()">ok</button>-->
@@ -124,7 +145,28 @@
                     <img src="img/tarefas-sem-fundo.png" alt="">
                     <h1>DS Metas</h1>
                     <p>Projeto acadêmico, simula um site para controle de vendas referente a equipe.</p>
-                    <button>Hire me</button>
+                    <button class="btnOpenModal3" onclick="openModal3()">Tecnologias</button>
+                       <div class="modal-container3">
+                          <div class="modal3">
+                             <h2>INFORMAÇÕES TECNOLOGIAS APLICADAS</h2>
+                             <hr>
+                              <span>
+                                <h3>CSS</h3>
+                                <span>CSS, Trata-se de uma linguagem de marcação, amplamente utilizada com HTML ou XHTML, e representa diversas possibilidades para a formatação. O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.</span>
+                               
+                                 <h3>HTML</h3>
+                                 <span>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</span>
+                                 
+                                 <h3>BOOTSTRAP</h3>
+                                 <span> Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.</span>
+                              <hr>
+                              </span>
+                               <div class="btns3">
+                                <!--<button class="btnOk" onclick="closeModal()">ok</button>-->
+                                <button class="btnClose3" onclick="closeModal3()">Fechar</button>
+                               </div>
+                          </div>
+                       </div>
                     <a target="_blank" href="https://github.com/dreds1522/dsmeta-css">Relação de vendas</a>
                 </label>
             </div>
@@ -186,5 +228,31 @@ function closeModal(){
     modal.classList.remove('active')
 }
     </script>
+    <!---Modal 1--->
+
+    <script>
+        const modal2 = document.querySelector('.modal-container2')
+
+function openModal2(){
+    modal2.classList.add('active')
+}
+
+function closeModal2(){
+    modal2.classList.remove('active')
+}
+    </script>
+    <!---Modal-2-->
+    <script>
+        const modal3 = document.querySelector('.modal-container3')
+
+function openModal3(){
+    modal3.classList.add('active')
+}
+
+function closeModal3(){
+    modal3.classList.remove('active')
+}
+    </script>
+    
 </body>
 </html>
