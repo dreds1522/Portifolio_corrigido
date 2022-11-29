@@ -287,21 +287,26 @@ header .btn-mobile{
     height: 100vh;
     background: url(img/teste\ 3.png);
     background-size: cover;
+    
+    
 }
 #contact .container .content-contact{
-    width: 80%;
-    height: 60vh;
+    width: 90%;
+    height: 30vh;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 70px 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    
 }
 #contact .content-contact .contact-left{
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    color: #fff
+    color: #fff;
+    position: relative;
+        
 }
 #contact .content-contact .contact-left h1{
     font-size: 2rem;
@@ -315,12 +320,14 @@ header .btn-mobile{
     margin-bottom: 10px;
 }
 #contact .content-contact .contact-left ion-icon{
-    font-size: 2rem;
-    padding: 20px 0;
+    font-size: 1.5rem;
+    padding: 2px;
 }
 #contact .content-contact .contact-left span{
-    font-size: 1.2rem;
-    padding: 5px;
+    font-size: 1rem;
+    padding: 0px;
+    position: relative;
+    top: -32px;
 }
 #contact .content-contact .contact-right{
     width: 50%;
