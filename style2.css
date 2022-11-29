@@ -52,7 +52,7 @@ header .btn-mobile{
     display: none;
 }
 
-/*==Main Home==*/
+/*==Home==*/
 #home .container{
     width: 100%;
     height: 100vh;
@@ -114,10 +114,11 @@ header .btn-mobile{
 #about .container{
     width: 100%;
     height: 100vh;
-    background: url(img/teste\ 2.png);
+    background: url(img/teste\ 3.png);
     background-size: cover;
     display: flex;
     justify-content: space-between;
+    
 
 }
 #about .container .title{
@@ -127,8 +128,8 @@ header .btn-mobile{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    padding: 0 120px;
+    /*justify-content: center;*/
+    padding: 50px 50px ;
 }
 #about .container .title h1{
     color: #fff;
@@ -183,6 +184,49 @@ header .btn-mobile{
     background: #156fc3;
     border-radius: 5px;
 }
+#about .form{
+    position: relative;
+    display: flex;
+    left: 700px;
+    flex-direction: column;
+    bottom: 330px;
+    background-size: cover;
+    font-size: 15px;
+    /*border-radius: 20px;
+    box-shadow: 10px 10px 30px 10px rgba(21,111,195,0.5);*/
+}
+/*#about .form h2{
+    position: absolute;
+    display: flex;
+    left: 800px;
+    bottom: -435px;
+    
+}
+#about .form span{
+    position: absolute;
+    display: flex;
+    left: 800px;
+    bottom: -500px;
+    
+}*/
+.video video{
+    padding: 5px 5px;
+    position: absolute;
+    display: flex;
+    left: 850px;
+    top: 700px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(21,111,195,0.5);
+    width: 30%;
+}
+/*.video p{
+    color: #fff;
+    position: absolute;
+    display: flex;
+    left: 800px;
+    top: 790px;
+    border-radius: 20px;
+}*/
 
 /*==Projetos==*/
 #port .container{
@@ -215,7 +259,7 @@ header .btn-mobile{
     cursor: pointer;
 }
 #port .container .card img{
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -224,8 +268,8 @@ header .btn-mobile{
     position: absolute;
     z-index: 9;
     color: rgb(17, 23, 104);
-    font-size: 4rem;
-    margin-top: 10px;
+    font-size: 3rem;
+    margin-top: 50px;
     margin-right: 110px;
 }
 #port .container .card p{
@@ -240,19 +284,20 @@ header .btn-mobile{
 #port .container .card button{
     position: absolute;
     z-index: 9;
-    margin-top: 320px;
-    padding: 10px 20px;
+    margin-top: 300px;
+    padding: 1px 10px;
     border-radius: 20px;
     border: none;
     color: rgb(255, 255, 255);
     background: rgba(21,111,195,0.5);
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 1rem;
 }
 #port .container .card a{
     position: absolute;
     z-index: 9;
-    margin-top: 350px;
+    margin-top: 330px;
     padding: 10px 20px;
 }
 #port .container .cards{
@@ -338,6 +383,16 @@ header .btn-mobile{
 #contact .content-contact .contact-right h1{
     font-size: 2rem;
     text-transform: uppercase;
+}
+#contact .content-contact .contact-right ion-icon{
+    font-size: 1.5rem;
+    padding: 0;
+}
+#contact .content-contact .contact-right span{
+    position: relative;
+    bottom: -30px;
+    right: 200px;
+    
 }
 #contact .content-contact .contact-right input[type=email],
 #contact .content-contact .contact-right input[type=text]{
@@ -449,8 +504,8 @@ span{
 }
 .btns button{
     position: fixed;
-    top: -310px;
-    left: 550px;
+    top: -280px;
+    left: 570px;
     
     font-size: medium;
     padding: 10px;
@@ -518,8 +573,8 @@ span{
 }
 .btns2 button{
     position: fixed;
-    top: -310px;
-    left: 550px;
+    top: -280px;
+    left: 570px;
     
     font-size: medium;
     padding: 10px;
@@ -588,8 +643,8 @@ span{
 }
 .btns3 button{
     position: fixed;
-    top: -310px;
-    left: 550px;
+    top: -280px;
+    left: 570px;
     
     font-size: medium;
     padding: 10px;
@@ -650,22 +705,7 @@ nav .menu ul li.active a{
     }
 }
 
-.video video{
-    position: absolute;
-    display: flex;
-    left: 800px;
-    top: 750px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px 10px rgba(21,111,195,0.5);
-}
-.video p{
-    color: #fff;
-    position: absolute;
-    display: flex;
-    left: 860px;
-    top: 690px;
-    border-radius: 20px;
-}
+
 
 /*==Responsividade==*/
 @media screen and (max-width: 1280px){
