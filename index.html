@@ -12,14 +12,16 @@
         <div class="logo">
             <img src="img/logo.png" alt="Logo">
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#port">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </div>
+        <nav>
+           <div class="menu">
+               <ul>
+                  <li class="home"><a href="#home">Inicio</a></li>
+                  <li class="about"><a href="#about">Sobre</a></li>
+                  <li class="port"><a href="#port">Projetos</a></li>
+                  <li class="contact"><a href="#contact">Contato</a></li>
+              </ul>
+            </div>
+        </nav>
         
         <div class="menu-mobile">
             <ul>
@@ -34,7 +36,7 @@
         </div>
     </header>
 
-    <main id="home">
+    <section id="home">
         <div class="container">
             <!--div class="icons">
                 <a target="_blank"href="https://www.instagram.com/andre.sampaio.38/"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -48,7 +50,7 @@
                 <h3>Fullstack</h3>
             </div>
         </div>
-    </main>
+    </section>
     <section id="about">
          <div class="container">
             <div class="title"> 
@@ -219,6 +221,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src="main.js"></script>
     <script>
         $(document).ready(function(){
             $(".btn-mobile").click(function(){
@@ -226,7 +229,7 @@
             })
         })
     </script>
-    <script>
+    <!--script>
         const modal = document.querySelector('.modal-container')
 
 function openModal(){
@@ -239,7 +242,7 @@ function closeModal(){
     </script>
     <!---Modal 1--->
 
-    <script>
+    <!--script>
         const modal2 = document.querySelector('.modal-container2')
 
 function openModal2(){
@@ -252,7 +255,7 @@ function closeModal2(){
     </script>
     <!---Modal-2-->
     
-    <script>
+    <!--script>
         const modal3 = document.querySelector('.modal-container3')
 
 function openModal3(){
@@ -264,6 +267,30 @@ function closeModal3(){
 }
     </script>
     <!---Modal-3-->
+
+    <!--script>
+        const sections = document.querySelectorAll('section');
+const navLi = document.querySelectorAll('nav .menu ul li');
+
+window.addEventListener('scroll',()=> {
+    let current = '';
+    
+
+    sections.forEach( section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if(pageYOffset >= (sectionTop - sectionHeight / 3)){
+            current = section.getAttribute('id');
+        }
+    })
+    navLi.forEach(li => {
+        li.classList.remove('active');
+        if(li.classList.contains(current)){
+            li.classList.add('active')
+        }
+    })
+})
+    </script-->
     
 </body>
 </html>
