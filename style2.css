@@ -708,26 +708,132 @@ nav .menu ul li.active a{
 
 
 /*==Responsividade==*/
-@media screen and (max-width: 1280px){
-    #home .container .icons ion-icon{
-       font-size: 1.5rem;
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (max-width: 1280px) {
+    /*#home .container .icons ion-icon{
+        font-size: 1.5rem;
+    }*/
+    #home .container .title{
+        font-size: 95px;
+        margin-top: 1px
     }
     #port .container .card h1{
-        font-size: 3rem;
-        margin-top: 35px;
-       
-       
+         font-size: rem;
+         margin-top: 35px;
     }
-    #port .container .card p{
-        width: 280px;
-        font-size: 0.9rem;
+    
+}
+@media only screen and (max-width: 1245px){
+    .video video{
+        padding: 5px 5px;
+        position: absolute;
+        display: flex;
+        left: 750px;
+        top: 700px;
+    }
+    #about .form{
+        left: 650px;
+        bottom: 350px;
+        width: 20px
+    }
+    .contact-right span{
+        display: none;
+    }
+
+    .btns button{
+        top: -300px;
+        left: 500px;
+    }
+    .btns2 button{
+        top: -300px;
+        left: 500px;
+    }
+    .btns3 button{
+        top: -300px;
+        left: 500px;
     }
 }
-
-@media screen and (max-width: 960px){
-    body{
-        background: url(img/teste\ 3.png);
+@media only screen and (max-width: 1150px){
+    #about .form{
+        left: 500px;
+        bottom: 350px;
+        width: 20px
     }
+    .video video{
+        left: 670px;
+        top: 700px;
+    }
+    #contact span{
+        display: none;
+    }
+    .btns button{
+        top: -300px;
+        left: 800px;
+    }
+    .btns2 button{
+        top: -300px;
+        left: 800px;
+    }
+    .btns3 button{
+        top: -300px;
+        left: 800px;
+    }
+    .modal-container .modal{
+        width: 80%;
+    }
+    .modal-container2 .modal2{
+        width: 80%;
+    }
+    .modal-container3 .modal3{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 1000px){
+    #about .form, .video video{
+        display: none;
+    }
+    #port .container .card{
+        width: 50%;
+        height: 40%;
+    }
+    #port .container .card h1{
+        font-size: 30px;
+    }
+    #port .container .card p{
+        display: none;
+    }
+    #port .container .card button{
+        margin-top: 150px;
+    }
+    #port .container .card a{
+        margin-top: 180px;
+    }
+    
+    .btns button{
+        top: -150px;
+        left: 700px;
+    }
+    .btns2 button{
+        top: -150px;
+        left: 700px;
+    }
+    .btns3 button{
+        top: -150px;
+        left: 700px;
+    }
+    .modal-container .modal{
+        width: 80%;
+    }
+    .modal-container2 .modal2{
+        width: 80%;
+    }
+    .modal-container3 .modal3{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 960px){
+    
     header{
         background: none;
     }
@@ -746,7 +852,7 @@ nav .menu ul li.active a{
     }
     header .menu-mobile{
         display: none;
-        width: 40%;
+        width: 50%;
         height: 18vh;
         box-shadow: 0 0 15px 0 rgba(21,111,195,0.5);
         position: fixed;
@@ -841,15 +947,21 @@ nav .menu ul li.active a{
         flex-direction: column;
     }
     #contact .content-contact .contact-left h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+       
+    }
+    #contact .content-contact .contact-left .linha{
+        width: 200%;
     }
     #contact .content-contact .contact-left ion-icon{
         font-size: 1.5rem;
         padding: 5px 0;
+        display: flex;
+        align-content: flex-end;
     }
     #contact .content-contact .contact-left span{
         font-size: 1rem;
-        padding: 5px 0;
+        padding: 5px 0 50px;
     }
     #contact .content-contact .contact-right h1{
         font-size: 1.5rem;
@@ -909,6 +1021,17 @@ nav .menu ul li.active a{
     #about .container .box-title .b5{
         width: 50%;
     }
+    .video video{
+        padding: 5px 5px;
+        position: absolute;
+        display: flex;
+        left: 150px;
+        top: 1000px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px 10px rgba(21,111,195,0.5);
+        width: 50%;
+        height: 30%;
+    }    
     #port .container .card{
         width: 50%;
         height: 25%;
@@ -925,4 +1048,136 @@ nav .menu ul li.active a{
     }
             
     
-}       
+}
+@media only screen and (max-width: 620px){
+    header{
+        display: flex;
+
+    }
+    #port .container .card{
+        width: 60%;
+        height: 25%;
+    }
+    #port .container .card h1{
+        font-size: 18px;
+        top: -20px;
+        left: 70px;
+    }
+    #port .container .card p{
+        display: none;
+    }
+    #port .container .card button{
+        margin-top: 80px;
+        width: 30%;
+        font-size: 10px;
+    }
+    #port .container .card a{
+        margin-top: 115px;
+    }
+    .btns button{
+        top: -80px;
+        left: 345px;
+    }
+    .btns2 button{
+        top: -80px;
+        left: 345px;
+    }
+    .btns3 button{
+        top: -80px;
+        left: 345px;
+    }
+    .modal-container .modal{
+        width: 100%;
+    }
+    .modal-container2 .modal2{
+        width: 80%;
+    }
+    .modal-container3 .modal3{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    
+    #about .container p{
+        display: none;
+    }
+    #about .container .box-title{
+        margin-top: 50px;
+    }
+    header{
+        display: flex;
+
+    }
+    #port .container .card{
+        width: 60%;
+        height: 25%;
+    }
+    #port .container .card h1{
+        font-size: 18px;
+        top: -30px;
+        left: 60px;
+    }
+    #port .container .card p{
+        display: none;
+    }
+    #port .container .card button{
+        margin-top: 80px;
+        width: 50%;
+    }
+    #port .container .card a{
+        margin-top: 115px;
+    }
+    .modal{
+        padding: 10px;
+        width: 80%;
+    }
+    span .btns button{
+        font-size: smaller;
+    }
+    .btns button{
+        top: -80px;
+        left: 250px;
+    }
+    .btns2 button{
+        top: -80px;
+        left: 200px;
+    }
+    .btns3 button{
+        top: -80px;
+        left: 250px;
+    }
+    .modal-container .modal{
+        width: 100%;
+        height: 80%;
+    }
+    .modal-container2 .modal2{
+        width: 80%;
+        height: 80%;
+    }
+    .modal-container3 .modal3{
+        width: 100%;
+        height: 80%;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    #home .container .title h2{
+        font-size: 20px
+    }
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (min-width: 600px) {}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 601px) {}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {}
