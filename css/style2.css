@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Poppins:ital,wght@1,200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
-    
+
 }
 
-header{
+header {
     width: 100%;
     height: 40px;
     background: rgba(0, 0, 0, 0.5);
@@ -22,45 +23,54 @@ header{
     position: fixed;
     z-index: 99;
 }
-header .logo{
+
+header .logo {
     width: 70%;
-    
+
 }
-header .logo img{
+
+header .logo img {
     width: 100px;
-    
+
 }
-header .menu ul{
+
+header .menu ul {
     display: flex;
 }
-header .menu ul li{
+
+header .menu ul li {
     padding: 0 20px;
     list-style: none;
 }
-header .menu ul li a{
+
+header .menu ul li a {
     text-decoration: none;
     /*text-transform: uppercase;*/
     color: #fff;
 }
-header .menu ul li a:hover{
+
+header .menu ul li a:hover {
     color: #156fc3;
 }
-header .menu-mobile{
+
+header .menu-mobile {
     display: none;
 }
-header .btn-mobile{
+
+header .btn-mobile {
     display: none;
 }
 
 /*==Home==*/
-#home .container{
+#home .container {
     width: 100%;
     height: 100vh;
-    background: url(img/teste.png);
+    background: url(../img/teste.png);
     background-size: cover;
     display: flex;
 }
-#home .container .icons{
+
+#home .container .icons {
     width: 10%;
     height: 80vh;
     display: flex;
@@ -70,16 +80,19 @@ header .btn-mobile{
     position: fixed;
     z-index: 999;
 }
-#home .container .icons ion-icon{
+
+#home .container .icons ion-icon {
     padding: 30px 0;
     font-size: 2rem;
     color: #fff;
     transition: 0.3 ease;
 }
-#home .container .icons ion-icon:hover{
+
+#home .container .icons ion-icon:hover {
     color: #156fc3;
 }
-#home .container .title{
+
+#home .container .title {
     width: 100%;
     height: 80vh;
     display: flex;
@@ -88,13 +101,15 @@ header .btn-mobile{
     justify-content: center;
     padding: 0 60px;
 }
-#home .container .title h1{
+
+#home .container .title h1 {
     color: #fff;
     text-transform: uppercase;
     font-size: 4rem;
     letter-spacing: 5px;
 }
-#home .container .title h2{
+
+#home .container .title h2 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -103,7 +118,8 @@ header .btn-mobile{
     margin-top: 30px;
     margin-left: 35px;
 }
-#home .container .title h3{
+
+#home .container .title h3 {
     color: #fff;
     text-transform: uppercase;
     font-size: 1rem;
@@ -111,17 +127,18 @@ header .btn-mobile{
 }
 
 /*==About==*/
-#about .container{
+#about .container {
     width: 100%;
     height: 100vh;
-    background: url(img/teste\ 3.png);
+    background: url(../img/teste\ 3.png);
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    
+
 
 }
-#about .container .title{
+
+#about .container .title {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
@@ -129,62 +146,72 @@ header .btn-mobile{
     flex-direction: column;
     align-items: flex-start;
     /*justify-content: center;*/
-    padding: 50px 50px ;
+    padding: 50px 50px;
 }
-#about .container .title h1{
+
+#about .container .title h1 {
     color: #fff;
     text-transform: uppercase;
     font-size: 1.5rem;
     text-align: left;
 }
-#about .container .title p{
+
+#about .container .title p {
     color: #fff;
     width: 500px;
     margin-top: 30px;
 }
-#about .container .box-title{
+
+#about .container .box-title {
     width: 410px;
     height: 55vh;
     margin-top: 20px;
     padding: 0 10px;
-    box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
+    box-shadow: 0 0 10px 0 rgba(21, 111, 195, 0.5);
     border-radius: 30px;
 }
-#about .container .box-title span{
+
+#about .container .box-title span {
     color: #fff;
 }
-#about .container .box-title .b1{
+
+#about .container .box-title .b1 {
     width: 390px;
     height: 8px;
     background: #fff;
     margin-top: 2px;
     border-radius: 5px;
 }
-#about .container .box-title .b2{
+
+#about .container .box-title .b2 {
     width: 195px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
-#about .container .box-title .b3{
+
+#about .container .box-title .b3 {
     width: 195px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
-#about .container .box-title .b4{
+
+#about .container .box-title .b4 {
     width: 195px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
-#about .container .box-title .b5{
+
+#about .container .box-title .b5 {
     width: 195px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
-#about .form{
+
+#about .form {
     position: relative;
     display: flex;
     left: 700px;
@@ -195,6 +222,7 @@ header .btn-mobile{
     /*border-radius: 20px;
     box-shadow: 10px 10px 30px 10px rgba(21,111,195,0.5);*/
 }
+
 /*#about .form h2{
     position: absolute;
     display: flex;
@@ -209,16 +237,17 @@ header .btn-mobile{
     bottom: -500px;
     
 }*/
-.video video{
+.video video {
     padding: 5px 5px;
     position: absolute;
     display: flex;
     left: 850px;
     top: 700px;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px rgba(21,111,195,0.5);
+    box-shadow: 10px 10px 10px 10px rgba(21, 111, 195, 0.5);
     width: 30%;
 }
+
 /*.video p{
     color: #fff;
     position: absolute;
@@ -229,22 +258,24 @@ header .btn-mobile{
 }*/
 
 /*==Projetos==*/
-#port .container{
+#port .container {
     width: 100%;
     height: 100vh;
-    background: url(img/teste\ 3.png);
+    background: url(../img/teste\ 3.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 }
-#port .container input[type=radio]{
+
+#port .container input[type=radio] {
     display: none;
 }
-#port .container .card{
+
+#port .container .card {
     position: absolute;
     width: 60%;
     height: 60%;
@@ -258,13 +289,15 @@ header .btn-mobile{
     transition: 0.4s ease;
     cursor: pointer;
 }
-#port .container .card img{
+
+#port .container .card img {
     width: 80%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
-#port .container .card h1{
+
+#port .container .card h1 {
     position: absolute;
     z-index: 9;
     color: rgb(17, 23, 104);
@@ -272,16 +305,18 @@ header .btn-mobile{
     margin-top: 50px;
     margin-right: 110px;
 }
-#port .container .card p{
+
+#port .container .card p {
     position: absolute;
     z-index: 9;
     width: 400px;
     color: rgb(12, 13, 97);
     margin-top: 200px;
     text-align: center;
-    
+
 }
-#port .container .card button{
+
+#port .container .card button {
     position: absolute;
     z-index: 9;
     margin-top: 300px;
@@ -289,113 +324,140 @@ header .btn-mobile{
     border-radius: 20px;
     border: none;
     color: rgb(255, 255, 255);
-    background: rgba(21,111,195,0.5);
+    background: rgba(21, 111, 195, 0.5);
     text-transform: uppercase;
     cursor: pointer;
     font-size: 1rem;
 }
-#port .container .card a{
+
+#port .container .card a {
     position: absolute;
     z-index: 9;
     margin-top: 330px;
     padding: 10px 20px;
 }
-#port .container .cards{
+
+#port .container .cards {
     position: relative;
     width: 100%;
     height: 100%;
 }
-#item-1:checked ~ .cards #song-3,
-#item-2:checked ~ .cards #song-1,
-#item-3:checked ~ .cards #song-2{
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2 {
     transform: translatex(-40%) scale(0.8);
     opacity: 0.4;
     z-index: 0;
 }
-#item-1:checked ~ .cards #song-2,
-#item-2:checked ~ .cards #song-3,
-#item-3:checked ~ .cards #song-1{
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-1 {
     transform: translatex(40%) scale(0.8);
     opacity: 0.4;
     z-index: 0;
 }
-#item-1:checked ~ .cards #song-1,
-#item-2:checked ~ .cards #song-2,
-#item-3:checked ~ .cards #song-3{
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3 {
     transform: translatex(0%) scale(1);
     opacity: 1;
     z-index: 1;
 }
+
 /*==Contatos==*/
-#contact .container{
+#contact .container {
     width: 100%;
     height: 100vh;
-    background: url(img/teste\ 3.png);
+    background: url(../img/teste\ 3.png);
     background-size: cover;
-    
-    
+
+
 }
-#contact .container .content-contact{
+
+#contact .container .content-contact {
     width: 90%;
     height: 30vh;
     margin: 0 auto;
-    padding: 70px 0;
+    padding: 30px 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    
+
 }
-#contact .content-contact .contact-left{
+
+#contact .content-contact .contact-left {
     width: 30%;
     display: flex;
     flex-direction: column;
     color: #fff;
     position: relative;
-        
+
 }
-#contact .content-contact .contact-left h1{
+
+#contact .rSociais {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    position: absolute;
+  
+    bottom: -290%
+}
+
+#contact .content-contact .contact-left h1 {
     font-size: 2rem;
     text-transform: uppercase;
 }
-#contact .content-contact .linha{
+
+#contact .content-contact .linha {
     width: 350px;
     height: 3px;
     background: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#contact .content-contact .contact-left ion-icon{
+
+#contact .content-contact .contact-left ion-icon {
     font-size: 1.5rem;
     padding: 2px;
 }
-#contact .content-contact .contact-left span{
+
+#contact .content-contact .contact-left span {
     font-size: 1rem;
     padding: 0px;
     position: relative;
     top: -32px;
 }
-#contact .content-contact .contact-right{
+
+#contact .contact-right {
     width: 50%;
     display: flex;
     flex-direction: column;
-    color:#fff ;
+    color: #fff;
 }
-#contact .content-contact .contact-right h1{
+
+#contact .content-contact .contact-right h1 {
     font-size: 2rem;
     text-transform: uppercase;
 }
-#contact .content-contact .contact-right ion-icon{
+
+#contact .content-contact .contact-right ion-icon {
     font-size: 1.5rem;
     padding: 0;
 }
-#contact .content-contact .contact-right span{
+
+#contact .content-contact .contact-right span {
     position: relative;
     bottom: -30px;
     right: 200px;
-    
+
 }
+
 #contact .content-contact .contact-right input[type=email],
-#contact .content-contact .contact-right input[type=text]{
+#contact .content-contact .contact-right input[type=text] {
     border-radius: 20px;
     border: none;
     padding: 15px 20px;
@@ -404,7 +466,8 @@ header .btn-mobile{
     font-weight: 400;
     outline: none;
 }
-#contact .content-contact .contact-right textarea{
+
+#contact .content-contact .contact-right textarea {
     width: 100%;
     height: 120px;
     border-radius: 10px;
@@ -415,7 +478,8 @@ header .btn-mobile{
     outline: none;
     padding: 15px 20px;
 }
-footer{
+
+footer {
     /*width: 100%;
     height: 80px;
     color: #fff;
@@ -432,21 +496,25 @@ footer{
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    
- }
- footer .icons{
+
+}
+
+footer .icons {
     letter-spacing: 20px;
- }
- footer .icons ion-icon{
+}
+
+footer .icons ion-icon {
     padding: 5px 0;
     font-size: 1.5rem;
     color: #fff;
     transition: 0.3 ease;
 }
- footer .icons ion-icon:hover{
+
+footer .icons ion-icon:hover {
     color: #156fc3;
 }
-.btnOpenModal{
+
+.btnOpenModal {
     font-size: x-large;
     padding: 10px;
     border: none;
@@ -455,12 +523,14 @@ footer{
     color: aliceblue;
     cursor: pointer;
 }
-hr{
+
+hr {
     border: 0px;
     border-top: 1px solid lightgray;
 
 }
-.modal-container{
+
+.modal-container {
     width: 100vw;
     position: fixed;
     top: 10px;
@@ -468,7 +538,8 @@ hr{
     z-index: 999;
     justify-content: center;
 }
-.modal{
+
+.modal {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -478,44 +549,52 @@ hr{
     width: 50%;
     height: 60vh;
 }
-.active{
+
+.active {
     display: flex;
 }
-.active .modal{
+
+.active .modal {
     animation: modal .4s;
 }
-@keyframes modal{
-    from{
+
+@keyframes modal {
+    from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
-span{
+
+span {
     margin: 10px auto;
 }
-.btns{
+
+.btns {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.btns button{
+
+.btns button {
     position: fixed;
     top: -280px;
     left: 570px;
-    
+
     font-size: medium;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: aliceblue;
     cursor: pointer;
-    
+
 }
-.btnOpenModal2{
+
+.btnOpenModal2 {
     font-size: x-large;
     padding: 10px;
     border: none;
@@ -524,12 +603,14 @@ span{
     color: aliceblue;
     cursor: pointer;
 }
-hr{
+
+hr {
     border: 0px;
     border-top: 1px solid lightgray;
 
 }
-.modal-container2{
+
+.modal-container2 {
     width: 100vw;
     position: fixed;
     top: 10px;
@@ -537,7 +618,8 @@ hr{
     z-index: 999;
     justify-content: center;
 }
-.modal2{
+
+.modal2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -547,45 +629,52 @@ hr{
     width: 50%;
     height: 60vh;
 }
-.active{
+
+.active {
     display: flex;
 }
-.active .modal2{
+
+.active .modal2 {
     animation: modal .4s;
 }
-@keyframes modal{
-    from{
+
+@keyframes modal {
+    from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
-span{
+
+span {
     margin: 10px auto;
 }
-.btns2{
+
+.btns2 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.btns2 button{
+
+.btns2 button {
     position: fixed;
     top: -280px;
     left: 570px;
-    
+
     font-size: medium;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: aliceblue;
     cursor: pointer;
-    
+
 }
 
-.btnOpenModal3{
+.btnOpenModal3 {
     font-size: x-large;
     padding: 10px;
     border: none;
@@ -594,12 +683,14 @@ span{
     color: aliceblue;
     cursor: pointer;
 }
-hr{
+
+hr {
     border: 0px;
     border-top: 1px solid lightgray;
 
 }
-.modal-container3{
+
+.modal-container3 {
     width: 100vw;
     position: fixed;
     top: 10px;
@@ -607,7 +698,8 @@ hr{
     z-index: 999;
     justify-content: center;
 }
-.modal3{
+
+.modal3 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -617,35 +709,42 @@ hr{
     width: 50%;
     height: 60vh;
 }
-.active{
+
+.active {
     display: flex;
 }
-.active .modal3{
+
+.active .modal3 {
     animation: modal .4s;
 }
-@keyframes modal{
-    from{
+
+@keyframes modal {
+    from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
-span{
+
+span {
     margin: 10px auto;
 }
-.btns3{
+
+.btns3 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.btns3 button{
+
+.btns3 button {
     position: fixed;
     top: -280px;
     left: 570px;
-    
+
     font-size: medium;
     padding: 10px;
     border: none;
@@ -655,36 +754,42 @@ span{
 }
 
 /*===Navegação scrool===*/
-nav{
+nav {
     position: sticky;
     top: 0;
     /*background-color: white;*/
 }
-nav .menu{
+
+nav .menu {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
 }
-nav .menu ul{
+
+nav .menu ul {
     list-style: none;
 }
-nav .menu ul li{
+
+nav .menu ul li {
     display: inline-block;
 }
-nav .menu ul li a{
+
+nav .menu ul li a {
     display: inline-block;
     padding: 10px 20px;
     color: black;
     text-decoration: none;
 }
+
 /*===Ativação===*/
-nav .menu ul li.active{
+nav .menu ul li.active {
     background-color: crimson;
     transition: 0.3s ease background-color;
 }
-nav .menu ul li.active a{
+
+nav .menu ul li.active a {
     color: white;
 }
 
@@ -695,477 +800,671 @@ nav .menu ul li.active a{
     background-color: brown;
    
 }*/
-@media (max-width: 500px){
-    .modal{
-        padding: 10px;
-        width: 80%;
-    }
-    span .btns button{
-        font-size: smaller;
-    }
-}
-
 
 
 /*==Responsividade==*/
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
 @media only screen and (max-width: 1280px) {
+
     /*#home .container .icons ion-icon{
         font-size: 1.5rem;
     }*/
-    #home .container .title{
+    #home .container .title {
         font-size: 95px;
         margin-top: 1px
     }
-    #port .container .card h1{
-         font-size: rem;
-         margin-top: 35px;
+
+    #port .container .card h1 {
+        font-size: rem;
+        margin-top: 35px;
     }
-    
+
 }
-@media only screen and (max-width: 1245px){
-    .video video{
+
+@media only screen and (max-width: 1245px) {
+    .video video {
         padding: 5px 5px;
         position: absolute;
         display: flex;
         left: 750px;
         top: 700px;
     }
-    #about .form{
+
+    #about .form {
         left: 650px;
         bottom: 350px;
         width: 20px
     }
-    .contact-right span{
+
+    .contact-right span {
         display: none;
     }
 
-    .btns button{
+    .btns button {
         top: -300px;
         left: 500px;
     }
-    .btns2 button{
+
+    .btns2 button {
         top: -300px;
         left: 500px;
     }
-    .btns3 button{
+
+    .btns3 button {
         top: -300px;
         left: 500px;
     }
 }
-@media only screen and (max-width: 1150px){
-    #about .form{
+
+@media only screen and (max-width: 1150px) {
+    #about .form {
         left: 500px;
         bottom: 350px;
         width: 20px
     }
-    .video video{
+
+    .video video {
         left: 670px;
         top: 700px;
     }
-    #contact span{
+
+    #contact span {
         display: none;
     }
-    .btns button{
+
+    .btns button {
         top: -300px;
         left: 800px;
     }
-    .btns2 button{
+
+    .btns2 button {
         top: -300px;
         left: 800px;
     }
-    .btns3 button{
+
+    .btns3 button {
         top: -300px;
         left: 800px;
     }
-    .modal-container .modal{
+
+    .modal-container .modal {
         width: 80%;
     }
-    .modal-container2 .modal2{
+
+    .modal-container2 .modal2 {
         width: 80%;
     }
-    .modal-container3 .modal3{
+
+    .modal-container3 .modal3 {
         width: 80%;
     }
-    
+
 }
-@media only screen and (max-width: 1000px){
-    #about .form, .video video{
+
+@media only screen and (max-width: 1000px) {
+
+    #about .form,
+    .video video {
         display: none;
     }
-    #port .container .card{
+
+    #port .container .card {
         width: 50%;
         height: 40%;
     }
-    #port .container .card h1{
+
+    #port .container .card h1 {
         font-size: 30px;
     }
-    #port .container .card p{
+
+    #port .container .card p {
         display: none;
     }
-    #port .container .card button{
+
+    #port .container .card button {
         margin-top: 150px;
     }
-    #port .container .card a{
+
+    #port .container .card a {
         margin-top: 180px;
     }
-    
-    .btns button{
+
+    .btns button {
         top: -150px;
         left: 700px;
     }
-    .btns2 button{
+
+    .btns2 button {
         top: -150px;
         left: 700px;
     }
-    .btns3 button{
+
+    .btns3 button {
         top: -150px;
         left: 700px;
     }
-    .modal-container .modal{
+
+    .modal-container .modal {
         width: 80%;
     }
-    .modal-container2 .modal2{
+
+    .modal-container2 .modal2 {
         width: 80%;
     }
-    .modal-container3 .modal3{
+
+    .modal-container3 .modal3 {
         width: 80%;
     }
 }
-@media screen and (max-width: 960px){
-    
-    header{
+
+@media screen and (max-width: 960px) {
+
+    header {
         background: none;
     }
-    header .logo{
+
+    header .logo {
         width: 600px;
     }
-    header .menu{
+
+    header .menu {
         display: none;
     }
-    header .btn-mobile{
+
+    header .btn-mobile {
         display: block;
     }
-    header .btn-mobile ion-icon{
+
+    header .btn-mobile ion-icon {
         color: #fff;
         font-size: 1.5rem;
     }
-    header .menu-mobile{
+
+    header .menu-mobile {
         display: none;
         width: 50%;
         height: 18vh;
-        box-shadow: 0 0 15px 0 rgba(21,111,195,0.5);
+        box-shadow: 0 0 15px 0 rgba(21, 111, 195, 0.5);
         position: fixed;
         top: 20px;
         border-radius: 10px;
         background: #156fc3;
     }
-    header .menu-mobile ul{
+
+    header .menu-mobile ul {
         text-align: center;
     }
-    header .menu-mobile ul li{
+
+    header .menu-mobile ul li {
         list-style: none;
         padding: 5px 0;
     }
-    header .menu-mobile ul li a{
+
+    header .menu-mobile ul li a {
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
     }
-    #home .container .icons{
+
+    #home .container .icons {
         padding: 0 20px;
     }
-    #home .container .title{
+
+    #home .container .title {
         align-items: center;
     }
-    #home .container .title h1{
+
+    #home .container .title h1 {
         font-size: 2rem;
         margin-top: 250px;
-      
+
     }
-    #home .container .title h2{
+
+    #home .container .title h2 {
         font-size: 1.5rem;
         margin-top: 400px;
     }
-    #about .container .title{
+
+    #about .container .title {
         align-items: center;
     }
-    #about .container .title h1{
+
+    #about .container .title h1 {
         font-size: 1.2rem;
         align-items: center;
     }
-    #about .container .title p{
+
+    #about .container .title p {
         font-size: 1rem;
         align-items: center;
         text-align: center;
     }
 
-    #about .container .box-title{
+    #about .container .box-title {
         width: 100%;
         height: 53vh;
     }
-    #about .container .box-title .b1{
+
+    #about .container .box-title .b1 {
         width: 100%;
-        
+
     }
-    #about .container .box-title .b2{
+
+    #about .container .box-title .b2 {
         width: 90%;
     }
-    #about .container .box-title .b3{
+
+    #about .container .box-title .b3 {
         width: 80%;
     }
-    #about .container .box-title .b4{
+
+    #about .container .box-title .b4 {
         width: 87%;
     }
-    #about .container .box-title .b5{
+
+    #about .container .box-title .b5 {
         width: 76%;
     }
-    #port .container .card h1{
-        font-size: 3rem;
+
+    #port .container .card h1 {
+        font-size: 2rem;
         margin-top: 35px;
     }
-    #port .container .card p{
+
+    #port .container .card p {
         width: 280px;
         font-size: 0.9rem;
     }
+
     /*#port .container .card img{
          width: 50%;
          height: 50%;
     }*/
-    #port .container .cards{
+    #port .container .cards {
         display: flex;
         justify-content: flex-start;
         position: relative;
         width: 100%;
         height: 100%;
     }
-    #contact .container .content-contact{
+
+    #contact .container .content-contact {
         width: 100%;
         height: 100vh;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    #contact .content-contact .contact-left h1{
+
+    #contact .content-contact .contact-left h1 {
         font-size: 1.2rem;
-       
+
     }
-    #contact .content-contact .contact-left .linha{
+
+    #contact .content-contact .contact-left .linha {
         width: 200%;
     }
-    #contact .content-contact .contact-left ion-icon{
+
+    #contact .content-contact .contact-left ion-icon {
         font-size: 1.5rem;
         padding: 5px 0;
         display: flex;
         align-content: flex-end;
     }
-    #contact .content-contact .contact-left span{
+
+    #contact .content-contact .contact-left span {
         font-size: 1rem;
         padding: 5px 0 50px;
     }
-    #contact .content-contact .contact-right h1{
+
+    #contact .content-contact .contact-right h1 {
         font-size: 1.5rem;
         margin-top: 20px;
     }
+
     #contact .content-contact .contact-right input[type=email],
-    #contact .content-contact .contact-right input[type=text]{
-        padding: 5px 12px;
+    #contact .content-contact .contact-right input[type=text] {
+        padding: 1px 12px;
         font-size: 1rem;
     }
-    #contact .content-contact .contact-right textarea{
+
+    #contact .content-contact .contact-right textarea {
         padding: 10px 15px;
         font-size: 1rem;
         width: 100%;
         height: 120%;
     }
-}
-@media screen and (max-width: 600px){
-    header{
-        padding: 10px;
+    #contact .rSociais{
+        right: 20px;
+        
     }
-    #home .container .title h2{
+    
+}
+
+
+@media only screen and (max-width: 620px) {
+    header {
+        display: flex;
+
+    }
+    #home .container .title h2 {
         letter-spacing: 23px;
         font-size: 1.5rem;
-        
+
+    }  
+
+    #port .container .card {
+        width: 60%;
+        height: 25%;
     }
-    #home .container .title h3{
+
+    #port .container .card h1 {
+        font-size: 18px;
+        top: -20px;
+        left: 70px;
+    }
+
+    #port .container .card p {
+        display: none;
+    }
+
+    #port .container .card button {
+        margin-top: 80px;
+        width: 30%;
+        font-size: 10px;
+    }
+
+    #port .container .card a {
+        margin-top: 115px;
+    }
+
+    .btns button {
+        top: -80px;
+        left: 345px;
+    }
+
+    .btns2 button {
+        top: -80px;
+        left: 345px;
+    }
+
+    .btns3 button {
+        top: -80px;
+        left: 345px;
+    }
+
+    .modal-container .modal {
+        width: 100%;
+    }
+
+    .modal-container2 .modal2 {
+        width: 80%;
+    }
+
+    .modal-container3 .modal3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #home .container .title h2 {
+        letter-spacing: 23px;
+        font-size: 1.5rem;
+
+    }
+
+    #home .container .title h3 {
         letter-spacing: 20px;
-        
+
     }
-    #about .container .title{
+
+    #about .container .title {
         padding: 10px 60px;
     }
-    #about .container .title p{
+
+    #about .container .title p {
         width: 100%;
         margin-top: 10px;
         font-size: 15px;
     }
-    #about .container .box-title{
+
+    #about .container .box-title {
         width: 100%;
         height: 40vh;
     }
-    #about .container .box-title .b1{
+
+    #about .container .box-title .b1 {
         width: 100%;
         margin-top: 20px;
-        
+
     }
-    #about .container .box-title .b2{
+
+    #about .container .box-title .b2 {
         width: 50%;
     }
-    #about .container .box-title .b3{
+
+    #about .container .box-title .b3 {
         width: 50%;
     }
-    #about .container .box-title .b4{
+
+    #about .container .box-title .b4 {
         width: 50%;
     }
-    #about .container .box-title .b5{
+
+    #about .container .box-title .b5 {
         width: 50%;
     }
-    .video video{
+
+    .video video {
         padding: 5px 5px;
         position: absolute;
         display: flex;
         left: 150px;
         top: 1000px;
         border-radius: 20px;
-        box-shadow: 10px 10px 10px 10px rgba(21,111,195,0.5);
+        box-shadow: 10px 10px 10px 10px rgba(21, 111, 195, 0.5);
         width: 50%;
         height: 30%;
-    }    
-    #port .container .card{
+    }
+
+    #port .container .card {
         width: 50%;
         height: 25%;
     }
-    #port .container .card h1,p{
+
+    #port .container .card h1,
+    p {
         display: none;
     }
-    #port .container .card button{
+
+    #port .container .card button {
         margin-top: 50%;
         font-size: 9px;
     }
-    #port .container .card a{
+
+    #port .container .card a {
         margin-top: 30%;
     }
-            
-    
-}
-@media only screen and (max-width: 620px){
-    header{
+
+    #contact .content-contact .contact-left h1 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    #contact .container .content-contact .contact-left {
+        width: 250px;
         display: flex;
-
     }
-    #port .container .card{
-        width: 60%;
-        height: 25%;
+    #contact .container .content-contact .contact-left .linha {
+        width: 350px;
     }
-    #port .container .card h1{
-        font-size: 18px;
-        top: -20px;
-        left: 70px;
-    }
-    #port .container .card p{
+    #contact .rSociais{
         display: none;
     }
-    #port .container .card button{
-        margin-top: 80px;
-        width: 30%;
-        font-size: 10px;
-    }
-    #port .container .card a{
-        margin-top: 115px;
-    }
-    .btns button{
-        top: -80px;
-        left: 345px;
-    }
-    .btns2 button{
-        top: -80px;
-        left: 345px;
-    }
-    .btns3 button{
-        top: -80px;
-        left: 345px;
-    }
-    .modal-container .modal{
-        width: 100%;
-    }
-    .modal-container2 .modal2{
-        width: 80%;
-    }
-    .modal-container3 .modal3{
-        width: 100%;
-    }
+
 }
 
-@media only screen and (max-width: 500px){
-    
-    #about .container p{
+@media only screen and (max-width: 500px) {
+
+    #about .container p {
         display: none;
     }
-    #about .container .box-title{
+    #home .container .title h2 {
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+
+    }
+
+    #about .container .box-title {
         margin-top: 50px;
     }
-    header{
+
+    header {
         display: flex;
 
     }
-    #port .container .card{
+
+    #port .container .card {
         width: 60%;
         height: 25%;
     }
-    #port .container .card h1{
+
+    #port .container .card h1 {
         font-size: 18px;
         top: -30px;
         left: 60px;
     }
-    #port .container .card p{
+
+    #port .container .card p {
         display: none;
     }
-    #port .container .card button{
+
+    #port .container .card button {
         margin-top: 80px;
         width: 50%;
     }
-    #port .container .card a{
+
+    #port .container .card a {
         margin-top: 115px;
     }
-    .modal{
+
+    .modal {
         padding: 10px;
         width: 80%;
     }
-    span .btns button{
+
+    span .btns button {
         font-size: smaller;
     }
-    .btns button{
+
+    .btns button {
         top: -80px;
         left: 250px;
     }
-    .btns2 button{
+
+    .btns2 button {
         top: -80px;
         left: 200px;
     }
-    .btns3 button{
+
+    .btns3 button {
         top: -80px;
         left: 250px;
     }
-    .modal-container .modal{
+
+    .modal-container .modal {
         width: 100%;
         height: 80%;
     }
-    .modal-container2 .modal2{
+
+    .modal-container2 .modal2 {
         width: 80%;
         height: 80%;
     }
-    .modal-container3 .modal3{
+
+    .modal-container3 .modal3 {
         width: 100%;
         height: 80%;
     }
 
 }
-@media only screen and (max-width: 500px){
+@media only screen and (min-width: 400px) and (max-width: 499px){
     #home .container .title h2{
-        font-size: 20px
+        left: 10px;
+        bottom: 80px;
+        font-size: 12px;
+        letter-spacing: 15px;
+        position: relative;
     }
-}
+    #home .container .title h3 {
+        left: 10px;
+        bottom: 70px;
+        font-size: 12px;
+        letter-spacing: 15px;
+        position: relative;  
+    }
+
+}    
+@media only screen and (max-width: 390px) {
+    header .btn-mobile ion-icon{
+       
+       
+    }
+   
+    #home .container .title h2 {
+        left: 10px;
+        bottom: 80px;
+        font-size: 12px;
+        letter-spacing: 15px;
+        position: relative;
+    }
+    header .btn-mobile ion-icon{
+        font-size: 1.5rem;
+        left: 200px;
+    }
+    #home .container .title h3 {
+        left: 10px;
+        bottom: 70px;
+        font-size: 12px;
+        letter-spacing: 15px;
+        position: relative;
+
+    }
+    .video video {
+        padding: 5px 5px;
+        position: absolute;
+        display: none;
+        left: 100px;
+        top: 1200px;
+        
+        width: 50%;
+        height: 30%;
+    }    
+
+}    
+@media (min-width: 600px) {
+    .rSociais{
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    #contact .content-contact .contact-right textarea {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 2px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        outline: none;
+        padding: 15px 20px;
+
+    }
+}    
 
 /* Smartphones (600px para baixo) */
 @media only screen and (min-width: 600px) {}
